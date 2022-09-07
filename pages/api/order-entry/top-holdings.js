@@ -7,7 +7,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'AMZN',
 			cusip: '12345',
-			componay: 'Amazon',
+			company: 'Amazon',
 			price: '$122.75',
 			changeIn24Hrs: '-$3.45',
 			shares: 80,
@@ -15,7 +15,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'NFLX',
 			cusip: '12301',
-			componay: 'Netflix',
+			company: 'Netflix',
 			price: '$3,345,645',
 			changeIn24Hrs: '+$9.30',
 			shares: 55,
@@ -23,7 +23,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'SHOP',
 			cusip: '12302',
-			componay: 'Shopify',
+			company: 'Shopify',
 			price: '$570',
 			changeIn24Hrs: '+$25.14',
 			shares: 22,
@@ -31,7 +31,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'DIA',
 			cusip: '12303',
-			componay: 'SPDR Down Jones Industrial Average ETF Trust (DIA)',
+			company: 'SPDR Down Jones Industrial Average ETF Trust (DIA)',
 			price: '$344',
 			changeIn24Hrs: '-$25.45',
 			shares: 2,
@@ -39,7 +39,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'TSLA',
 			cusip: '12304',
-			componay: 'Tesla',
+			company: 'Tesla',
 			price: '$1,004',
 			changeIn24Hrs: '+$36.75',
 			shares: 5,
@@ -47,7 +47,7 @@ export default function handler(req, res) {
 		{ 
 			symbol: 'VOO',
 			cusip: '12345',
-			componay: 'Vanguard ...',
+			company: 'Vanguard ...',
 			price: '$403',
 			changeIn24Hrs: '-$4.59',
 			shares: 24,
