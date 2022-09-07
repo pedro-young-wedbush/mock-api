@@ -4,9 +4,7 @@ export default function handler(req, res) {
       const symbol = req.body.symbol
 
       const result = stockList.find((stock) => {
-        if (stock.symbol === symbol.toUpperCase()) {
-          return stock
-        }
+        return stock.symbol.startsWith(symbol.toUpperCase())
       })
       res.status(200).json(result)
     }
